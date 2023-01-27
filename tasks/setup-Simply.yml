@@ -1,0 +1,7 @@
+---
+- name: Ensure MySQL packages are installed.
+  community.general.apt_rpm:
+    pkg: "{{ mysql_packages }}"
+    state: present
+  register: simply_mysql_install_packages
+...

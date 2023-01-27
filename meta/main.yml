@@ -23,6 +23,10 @@ galaxy_info:
     - name: Archlinux
       versions:
         - all
+    - name: Simply
+      versions:
+        - 10.0
+        - 10.1
   galaxy_tags:
     - database
     - mysql
